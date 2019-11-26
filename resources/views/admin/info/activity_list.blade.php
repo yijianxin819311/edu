@@ -21,9 +21,7 @@
                 <td >{{$v->act_title}}</td>
                 <td >{{strip_tags($v->act_content)}}</td>
             </tr>
-
         @endforeach
-
     </table>
     {{ $res->appends(['name'=>$name])->links()}}
 </div>
